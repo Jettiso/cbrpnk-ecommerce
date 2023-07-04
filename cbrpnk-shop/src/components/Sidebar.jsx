@@ -3,7 +3,7 @@ import React from "react";
 const Sidebar = () => {
 	return (
 		<>
-			<div className='hs-accordion-group'>
+			<div className='hs-accordion-group flex-none'>
 				<div className='hs-accordion active' id='hs-basic-with-title-and-arrow-stretched-heading-one'>
 					<button
 						className='hs-accordion-toggle hs-accordion-active:text-blue-600 group py-3 inline-flex items-center justify-between gap-x-3 w-full font-semibold text-left text-gray-800 transition hover:text-gray-500 dark:hs-accordion-active:text-blue-500 dark:text-gray-200 dark:hover:text-gray-400'
@@ -47,10 +47,7 @@ const Sidebar = () => {
 						aria-labelledby='hs-basic-with-title-and-arrow-stretched-heading-one'
 					>
 						<p className='text-gray-800 dark:text-gray-200'>
-							<em>This is the third item's accordion body.</em> It is hidden by default, until the
-							collapse plugin adds the appropriate classNamees that we use to style each element. These
-							classNamees control the overall appearance, as well as the showing and hiding via CSS
-							transitions.
+							<em>This is the third item's accordion body.</em> 
 						</p>
 					</div>
 				</div>
@@ -98,10 +95,7 @@ const Sidebar = () => {
 						aria-labelledby='hs-basic-with-title-and-arrow-stretched-heading-two'
 					>
 						<p className='text-gray-800 dark:text-gray-200'>
-							<em>This is the third item's accordion body.</em> It is hidden by default, until the
-							collapse plugin adds the appropriate classNamees that we use to style each element. These
-							classNamees control the overall appearance, as well as the showing and hiding via CSS
-							transitions.
+							<em>This is the third item's accordion body.</em> 
 						</p>
 					</div>
 				</div>
